@@ -10,12 +10,17 @@ namespace CshHW4
     {
         static void Main(string[] args)
         {
+            /*
             Morse morse = new Morse();
             string encoded = morse.Encode("HelloWorld");
 
             Console.WriteLine(encoded);
 
             Console.WriteLine(morse.Decode(encoded));
+            */
+
+            tictactoe tic = new tictactoe();
+            tic.Show(); 
 
             Console.ReadKey();
         }
